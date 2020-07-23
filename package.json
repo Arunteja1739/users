@@ -5,8 +5,8 @@
     "author": "arunteja1739@gmail.com <arunteja1739@gmail.com>",
     "license": "MIT",
     "scripts": {
-        "start": "webpack-dev-server --config webpack.client.js --open",
-        "build": "webpack --config webpack.client.js",
+        "start": "webpack && webpack --config webpack.server.js",
+        "build": "webpack && webpack --config webpack.server.js",
         "build:server": "webpack --config webpack.server.js",
         "deploy": "yarn build && yarn build:server && node dist/server.js"
     },
