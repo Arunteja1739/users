@@ -8,8 +8,8 @@ import moment from 'moment';
 
 const UserModal = ({user})=>{
     const localizer =  momentLocalizer(moment);
-    return (
-        <Calendar
+    
+    return (<Calendar
             localizer={localizer}
             events={user.activity_periods}
             step={15}
