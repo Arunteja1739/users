@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './index.scss';
-import '!style-loader!css-loader!react-big-calendar/lib/css/react-big-calendar.css';
+// import '!style-loader!css-loader!react-big-calendar/lib/css/react-big-calendar.css';
 import Home from './components/Home';
 
 class App extends Component {

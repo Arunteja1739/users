@@ -50,10 +50,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'index.html'),
         }),
-        // new HtmlWebpackPlugin({
-        //     template: "./index.html",
-        //     filename: "./index.html"
-        //   }),
         new MiniCssExtractPlugin({
             filename: 'my-css-build.css',
             chunkFilename: 'chunk-css-build.css',
